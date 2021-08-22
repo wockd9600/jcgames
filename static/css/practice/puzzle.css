@@ -1,0 +1,106 @@
+
+:root{
+    --variable : rgb(247, 109, 109);
+}
+
+.puzzle-game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.time{
+    font-size:3rem;
+    color: var(--variable);
+}
+.puzzle-img{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top:1rem;
+    list-style:none;
+    border:2px solid var(--variable);
+}
+.puzzle-img li{
+    width: 100px;
+    height: 100px;
+}
+.start-button{
+    background-color: var(--variable);
+    border: none;
+    padding: 1rem 2rem;
+    margin-top:1rem;
+    color:white;
+    font-size:20px;
+}
+.game-text{
+    position: absolute;
+    font-size:45px;
+    color:brown;
+    text-shadow: 1px 1px rgba(0, 0.5);
+    display: none;
+}
+
+.list0{
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.list1{
+    background-position-x: -100px;
+    background-position-y: 0px;
+}
+.list2{
+    background-position-x: -200px;
+    background-position-y: 0px;
+}
+.list3{
+    background-position-x: -300px;
+    background-position-y: 0px;
+}
+.list4{
+    background-position-x: 0px;
+    background-position-y: -100px;
+}
+.list5{
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+.list6{
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+.list7{
+    background-position-x: -300px;
+    background-position-y: -100px;
+}
+.list8{
+    background-position-x: 0px;
+    background-position-y: -200px;
+}
+.list9{
+    background-position-x: -100px;
+    background-position-y: -200px;
+}
+.list10{
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+.list11{
+    background-position-x: -300px;
+    background-position-y: -200px;
+}
+.list12{
+    background-position-x: 0px;
+    background-position-y: -300px;
+}
+.list13{
+    background-position-x: -100px;
+    background-position-y: -300px;
+}
+.list14{
+    background-position-x: -200px;
+    background-position-y: -300px;
+}
+.list15{
+    background-position-x: -300px;
+    background-position-y: -300px;
+}

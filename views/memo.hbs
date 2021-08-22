@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/practice/memo.css">
+<body>
+    <script src="/socket.io/socket.io.js"></script>
+    <div class="inputName">
+        <p>채팅방에서 사용할 별명을 입력해주세요.</p>
+        <label for="input-chatname">별명</label>
+        <input type="text" id="input-chatname">
+        <button type="button" class="set-name">입장</button>
+    </div>
+    <section class="wrapper">
+        <div class="user-container">
+            <label for="nickname">대화명</label>
+            <input type="text" id="nickname">
+        </div>
+        <section class="display-container">
+            <ul class="chatting-list">
+
+            </ul>
+        </section>
+        <div class="input-container">
+            <span>
+                <input type="text" class="chatting-input">
+                <button type="button" class="send-msg">전송</button>
+            </span>
+        </div>
+    </section>
+    <ul class="userList">
+        
+    </ul>
+    <script src="/js/practice/memo.js"></script>
+</body>

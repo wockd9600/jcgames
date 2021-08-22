@@ -1,0 +1,22 @@
+@import url(/css/reset.css);
+
+.body{
+    display:flex;
+    width:1280px;
+}
+
+.items{display: flex;width: fit-content;margin-left: auto;margin-right:auto;}
+.item:hover{
+    border-bottom:1px solid blue;
+}
+.item + .item{margin-left:10px;}
+.item>p{margin-left:20px;}
+.items>.item img{width:230px;height:230px;border-radius: 20px;}
+
+.gameboard{
+    width:38%;
+}
+.rankingboard{
+    width:58%;
+}
+

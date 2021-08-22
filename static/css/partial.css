@@ -1,0 +1,24 @@
+.table{display:flex;}
+.table li{transition:all 5s ease;margin-top: 5px;}
+.table p{width: 80px;text-align: center;}
+.table h6{width: 40px;text-align: center;}
+.ranking h6{margin-top:5px;}
+.td{display:flex;}
+.td p:last-child{width: 460px;}
+
+.myRank{
+    background-color: rgb(220, 240, 180);
+}
+
+#submit-score{
+    display:none;
+    position:absolute;
+    top:80px;
+    left:40px;
+    width: 452px;
+    height: 200px;
+    background-color:cornsilk;
+}
+/* 
+.userlist>li>p{width: 80px;text-align: center;}
+.userlist>li>p:last-child{width:600px;} */

@@ -1,0 +1,16 @@
+<section id="submit-score">
+    <div>
+        <label for="name">별명</label>
+        <input type="text" id="name" autocomplete='off'>
+    </div>
+    <div>
+        <label for="job">소속</label>
+        <input type="text" id="job" autocomplete='off' maxlength="5">
+    </div>
+    <div>
+        <label for="content">한마디</label>
+        <input type="text" id="content" autocomplete='off' maxlength="28">
+    </div>
+    <button type="button" onclick="sendRecord(`{{game}}`)">확인</button>
+    <button type="button" onclick="cancelRecord()">취소</button>
+</section>

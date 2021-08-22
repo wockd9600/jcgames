@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/practice/keyword.css">
+<script src="/socket.io/socket.io.js"></script>
+<body>
+    <!-- 오타, 영타, 한타, 등등 -->
+    <section class="body-keyword">
+        <h1>타자게임</h1>
+        <div class="board">
+            <p>점수 : <span class="score">0</span></p>
+            <p>시간 : <span class="time">10</span></p>
+        </div>
+        <div class="keyword">
+            <p class="keyword1">KeyWord</p>
+            <p class="keyword2">next-Kword</p>
+        </div>
+        <form id="game-form">
+            <div>
+                <label for="keyword-input"></label>
+                <input type="text" autocomplet="off" id="keyword-input">
+            </div>
+            <button class="submit" style="display: none;"></button>
+        </form>
+        <button class="start">게임 시작</button>
+        {{!-- <ul class="score-list"> --}}
+        <!-- // 이름(닉네임), 소속, 한마디 입력 받고 스코어와 db에 저장 -->
+    </section>
+    <script type="text/javascript" src="/js/practice/keyword.js"></script>
+</body>

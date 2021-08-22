@@ -1,0 +1,39 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    const game = getGame();
+    function getGame(){
+        var nowAddress = unescape(location.href);
+        var parameters = nowAddress.split("/");
+        return parameters[parameters.length-1];
+    }
+
+    window.onload = ()=>{
+        getRanking(game);
+    }
+</script>
+<section>
+    <section class="table">
+        <h6>순위</h6>
+        <p>이름</p>
+        <p>소속</p>
+        <p>점수</p>
+        <div class="td">
+            <p>한마디</p>
+        </div>
+    </section>
+    <section class="table myRank td">
+        <h6>0</h6>
+        <p></p>
+        <p></p>
+        <p>0</p>
+        <p></p>
+    </section>
+    <section class="table">
+        <div class="ranking">
+        </div>
+        <ul class="userlist">
+            <li class="td">
+            </li>
+        </ul>
+    </section>
+</section>
